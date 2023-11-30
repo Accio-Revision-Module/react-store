@@ -1,0 +1,16 @@
+.products {
+    margin: 2rem auto;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.list {
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}

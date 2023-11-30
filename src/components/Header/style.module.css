@@ -1,0 +1,11 @@
+header {
+    padding: 5rem 0;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+.brand {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+}

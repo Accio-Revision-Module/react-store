@@ -1,0 +1,41 @@
+.product {
+    width: 330px;
+    height: 430px;
+    border-radius: 5px;
+    overflow: hidden;
+
+    background-color: #3f3f3f;
+}
+
+.product img {
+    width: 100%;
+    height: 188px;
+    object-fit: cover;
+}
+
+.info {
+    text-align: left;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.description {
+    display: -webkit-box;
+    overflow: hidden;
+    max-width: 100%;
+
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
